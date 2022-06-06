@@ -5,11 +5,21 @@
   }
 
   .job-objective {
+    $height: 5vw;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.2vw 1vw;
     width: 50vw;
-    height: 5vw;
+    height: $height;
     background-color: #F5FDC8;
     border: 0.25rem solid #B3C644;
     border-radius: 4rem 0 0 0;
-    font-family: 'Noto Sans Display';
+
+    .job-objective-text {
+      font-family: 'Francois One';
+      font-size: $height * 0.6;
+    }
   }
 }

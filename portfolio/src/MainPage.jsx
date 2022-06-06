@@ -16,7 +16,7 @@ export default function MainPage() {
         <img src={applicantImg} alt="" />
       </div>
       <div className='job-objective'>
-        <div>
+        <div className='job-objective-text'>
           Front-End Developer
         </div>
       </div>
