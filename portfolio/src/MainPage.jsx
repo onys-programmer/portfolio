@@ -12,12 +12,12 @@ export default function MainPage() {
           Kim
         </div>
       </div>
-      <div>
-        <img src={applicantImg} alt="" />
-      </div>
-      <div className='job-objective'>
-        <div className='job-objective-text'>
-          Front-End Developer
+      <div className="sitting-applicant">
+        <img className="applicant-img" src={applicantImg} alt="" />
+        <div className="job-objective">
+          <div className="job-objective-text">
+            Front-End Developer
+          </div>
         </div>
       </div>
     </div>
