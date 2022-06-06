@@ -15,6 +15,11 @@ function App() {
       <div>
         <img src={applicantImg} alt="" />
       </div>
+      <div className='job-objective'>
+        <div>
+          Front-End Developer
+        </div>
+      </div>
     </div>
   );
 }
