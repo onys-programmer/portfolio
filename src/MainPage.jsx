@@ -1,3 +1,4 @@
+import React from 'react';
 import applicantImg from "./static/images/applicant-img.svg";
 import "./MainPage.scss";
 
@@ -21,5 +22,5 @@ export default function MainPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
