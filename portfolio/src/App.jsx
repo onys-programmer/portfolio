@@ -1,6 +1,5 @@
 import MainPage from './MainPage';
 import './App.scss';
-import applicantImg from "./static/images/applicant-img.svg";
 
 function App() {
   return (
