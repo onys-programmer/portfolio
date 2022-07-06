@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@emotion/eslint-plugin": "^11.7.0",
-    "eslint": "^8.17.0"
+    "eslint": "^8.17.0",
+    "sass": "^1.52.3"
   }
 }
