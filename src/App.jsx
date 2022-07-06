@@ -5,7 +5,6 @@ import {
   Route,
 } from "react-router-dom";
 import MainPage from './MainPage';
-import React from 'react';
 import './App.scss';
 
 function App() {
