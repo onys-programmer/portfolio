@@ -1,38 +1,4 @@
 .MainPage {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
-  .sitting-applicant {
-    $img-width: 20vh;
-    position: relative;
-    grid-column: 2 / 3;
-
-    .applicant-img {
-      width: $img-width;
-      position: absolute;
-      z-index: 1;
-    }
-
-    .job-objective {
-      $height: 10vh;
-
-      position: absolute;
-      margin: $img-width 0 0 $img-width * 0.5;
-      z-index: 0;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      padding: 0.2vw 1vw;
-      width: 40vw;
-      height: $height;
-      background-color: #F5FDC8;
-      border: 0.25rem solid #B3C644;
-      border-radius: 4rem 0 0 0;
-
-      .job-objective-text {
-        font-family: 'Francois One';
-        font-size: $height * 0.6;
-      }
-    }
-  }
 }
