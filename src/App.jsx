@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import MainPage from './pages/MainPage/MainPage';
+import TaskBar from './components/TaskBar/TaskBar';
 import './App.scss';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
         </Routes>
       </BrowserRouter>
+      <TaskBar />
     </div>
   );
 }
