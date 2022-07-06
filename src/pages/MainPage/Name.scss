@@ -1,0 +1,20 @@
+.Name {
+  position: relative;
+  margin: 5rem;
+
+  .applicant-name {
+    position: absolute;
+    z-index: 1;
+    grid-column: 1 / 2;
+    font-family: 'Noto Sans Display';
+    font-size: 13vh;
+  }
+
+  .shadow {
+    margin: 3rem 0 0 5rem;
+    position: absolute;
+    z-index: 0;
+    color: #C8E1C7;
+    opacity: 45%;
+  }
+}

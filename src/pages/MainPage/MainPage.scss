@@ -2,12 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  .applicant-name {
-    grid-column: 1 / 2;
-    font-family: 'Noto Sans Display';
-    font-size: 13vh;
-  }
-
   .sitting-applicant {
     $img-width: 20vh;
     position: relative;
