@@ -34,5 +34,7 @@ module.exports = {
     "@emotion/no-vanilla": "error",
     "@emotion/import-from-emotion": "error",
     "@emotion/styled-import": "error",
+
+    "react/react-in-jsx-scope": "off",
   },
 };
