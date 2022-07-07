@@ -6,11 +6,16 @@
   text-align: center;
   align-items: center;
 
+  &:hover {
+    transform: scale(1.02) translateY(-0.3rem);
+    cursor: pointer;
+  }
+
   .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    $img-width: 5vh;
+    $img-width: 5.8vh;
     width: $img-width;
     height: $img-width;
     border-radius: 0.5rem;
@@ -20,5 +25,6 @@
 
   .title {
     margin: 0.2rem 0 0 0;
+    font-size: 0.5rem;
   }
 }

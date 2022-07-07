@@ -3,12 +3,14 @@ import IconImg from '../../components/TaskBar/IconImg';
 
 const icons = [
   {
-    name: 'Skill',
+    name: 'Tech Stack',
     img: () => <IconImg Component={InsightsIcon} />,
+    shortCutKey: 's',
   },
   {
-    name: 'Career',
+    name: 'Projects',
     img: () => <IconImg Component={InsightsIcon} />,
+    shortCutKey: 'p',
   },
 ];
 
