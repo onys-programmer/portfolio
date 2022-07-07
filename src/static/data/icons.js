@@ -1,13 +1,14 @@
 import InsightsIcon from '@mui/icons-material/Insights';
+import IconImg from '../../components/TaskBar/IconImg';
 
 const icons = [
   {
     name: 'Skill',
-    img: () => <InsightsIcon />,
+    img: () => <IconImg Component={InsightsIcon} />,
   },
   {
     name: 'Career',
-    img: () => <InsightsIcon />,
+    img: () => <IconImg Component={InsightsIcon} />,
   },
 ];
 
