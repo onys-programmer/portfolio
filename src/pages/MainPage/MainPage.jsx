@@ -4,9 +4,9 @@ import SittingApplicant from "./SittingApplicant";
 
 export default function MainPage() {
   return (
-    <div className='MainPage'>
+    <main className='MainPage'>
       <Name />
       <SittingApplicant />
-    </div>
+    </main>
   );
 }

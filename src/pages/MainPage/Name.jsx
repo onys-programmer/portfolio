@@ -2,7 +2,7 @@ import './Name.scss';
 
 export default function Name() {
   return (
-    <div className='Name'>
+    <section className='Name'>
       <div className='applicant-name'>
         <div>
           Taeho
@@ -19,7 +19,7 @@ export default function Name() {
           Kim
         </div>
       </div>
-    </div>
+    </section>
 
   );
 }

@@ -3,7 +3,7 @@ import './SittingApplicant.scss';
 
 export default function SittingApplicant() {
   return (
-    <div className="sitting-applicant">
+    <section className="sitting-applicant">
       <img className="applicant-img" src={applicantImg} alt="" />
       <div className="chair">
         <div className="chair-box">
@@ -12,6 +12,6 @@ export default function SittingApplicant() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
