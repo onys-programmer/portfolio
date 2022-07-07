@@ -1,12 +1,12 @@
 import './TaskBar.scss';
-import Icon from './Icon';
+import ShortCutIcon from './ShortCutIcon';
 import icons from '../../static/data/icons';
 
 export default function TaskBar() {
   return (
     <footer className='TaskBar'>
       <div className='bar'>
-        {icons.map(({ name }) => <Icon key={name} name={name} />)}
+        {icons.map(icon => <ShortCutIcon key={icon["name"]} icon={icon} />)}
       </div>
     </footer>
   );
