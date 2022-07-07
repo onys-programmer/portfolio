@@ -1,4 +1,5 @@
 .ShortCutIcon {
+  color: #323232;
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -12,7 +13,12 @@
     $img-width: 5vh;
     width: $img-width;
     height: $img-width;
-    border: 0.3rem gray solid;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.25);
+    background-color: #E6F5EA;
+  }
+
+  .title {
+    margin: 0.2rem 0 0 0;
   }
 }

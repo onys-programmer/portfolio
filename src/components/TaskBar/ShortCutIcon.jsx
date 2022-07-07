@@ -7,7 +7,7 @@ export default function ShortCutIcon({ icon }) {
       <div className="btn">
         {img()}
       </div>
-      <p>{name}</p>
+      <p className='title'>{name}</p>
     </div>
   );
 }
