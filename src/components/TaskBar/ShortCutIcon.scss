@@ -9,6 +9,10 @@
   &:hover {
     transform: scale(1.02) translateY(-0.3rem);
     cursor: pointer;
+
+    .btn {
+      background-color: #f8fffa;
+    }
   }
 
   .btn {

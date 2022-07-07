@@ -8,6 +8,7 @@
     grid-column: 1 / 2;
     font-family: 'Noto Sans Display';
     font-size: 13vh;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
   }
 
   .shadow {
@@ -16,5 +17,6 @@
     z-index: 0;
     color: #C8E1C7;
     opacity: 45%;
+    text-shadow: none;
   }
 }
