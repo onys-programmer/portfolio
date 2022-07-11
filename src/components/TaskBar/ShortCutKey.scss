@@ -1,4 +1,23 @@
 .ShortCutKey {
-  margin: 0 1.7rem;
-  transform: translateY(-2rem);
+  margin: 0 1.44rem;
+  transform: translateY(-1.7rem);
+  width: 2rem;
+  height: 2rem;
+  border: 0.1rem #b7b7b7 solid;
+  box-shadow: 0.1rem 0.1rem #dadada;
+
+  cursor: pointer;
+
+  &:hover {
+    color: red;
+  }
+
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .key-name {
+    margin: 0 0 0.2rem;
+  }
 }

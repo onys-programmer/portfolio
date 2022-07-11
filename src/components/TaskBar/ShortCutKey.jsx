@@ -1,9 +1,11 @@
 import './ShortCutKey.scss';
 
-export default function ShortCutKey() {
+export default function ShortCutKey({ icon: { shortCutKey } }) {
   return (
     <div className="ShortCutKey">
-      key
+      <p className='key-name'>
+        {shortCutKey}
+      </p>
     </div>
   );
 }

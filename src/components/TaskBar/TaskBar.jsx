@@ -7,7 +7,7 @@ export default function TaskBar() {
   return (
     <footer className='TaskBar'>
       <div className='short-cut-keys'>
-        {icons.map(icon => <ShortCutKey key={icon["key"]} icon={icon} />)}
+        {icons.map(icon => <ShortCutKey key={icon["shortCutKey"]} icon={icon} />)}
       </div>
       <div className='short-cut-icons'>
         {icons.map(icon => <ShortCutIcon key={icon["name"]} icon={icon} />)}
