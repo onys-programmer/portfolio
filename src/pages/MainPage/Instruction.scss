@@ -1,7 +1,7 @@
 .Instruction {
   grid-column: 1 / 2;
-  margin: 37vh 10vh 0;
-  font-size: 1.5rem;
+  margin: 37vh 5rem 0;
+  font-size: 3vh;
   font-weight: 500;
 
   .detail {
@@ -11,7 +11,7 @@
     height: $detail-height;
     line-height: $detail-height;
     background-color: rgba(181, 255, 197, 0.25);
-    font-size: 0.8rem;
+    font-size: 1.5vh;
     font-weight: 300;
   }
 }
