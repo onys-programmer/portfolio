@@ -1,5 +1,6 @@
 .TaskBar {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -8,4 +9,12 @@
   background: rgba(166, 207, 165, 0.64);
   position: absolute;
   bottom: 0px;
+
+  .short-cut-keys {
+    display: flex;
+  }
+
+  .short-cut-icons {
+    display: flex;
+  }
 }
