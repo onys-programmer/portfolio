@@ -20,7 +20,9 @@ export default function Window({ onClose }) {
 
   return (
     <ReactModal isOpen className="Window">
-      <div>모달입니다.</div>
+      <div>
+        모달입니다.
+      </div>
       <div>
         <button onClick={handleClickCancel}>X</button>
       </div>

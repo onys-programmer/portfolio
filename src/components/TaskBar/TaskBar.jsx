@@ -20,7 +20,7 @@ export default function TaskBar() {
   }, []);
 
   const handleClick = () => {
-    openModal(Window, { foo: 'bar' });
+    openModal(Window, { name: 'bar' });
   };
 
   return (
