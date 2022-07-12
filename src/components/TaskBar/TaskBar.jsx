@@ -4,9 +4,20 @@ import ShortCutIcon from './ShortCutIcon';
 import ShortCutKey from './ShortCutKey';
 import Window from '../modals/Window';
 import icons from '../../static/data/icons';
+import { useEffect } from 'react';
 
 export default function TaskBar() {
   const { openModal } = useModals();
+
+  useEffect(() => {
+    const open = ({ key }) => {
+      if ('spkci'.includes(key)) {
+        openModal(Window, { name: { key } });
+      }
+    };
+    window.addEventListener('keyup', open);
+    return () => window.removeEventListener('keyup', open);
+  }, []);
 
   const handleClick = () => {
     openModal(Window, { foo: 'bar' });
