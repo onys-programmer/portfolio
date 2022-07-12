@@ -1,8 +1,19 @@
+import { useEffect } from 'react';
 import ReactModal from 'react-modal';
 
 import './Window.scss';
 
 export default function Window({ onClose }) {
+  useEffect(() => {
+    const close = (e) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keyup', close);
+    return () => window.removeEventListener('keyup', close);
+  }, []);
+
   const handleClickCancel = () => {
     onClose();
   };

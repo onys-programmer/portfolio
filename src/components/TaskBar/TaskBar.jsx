@@ -9,7 +9,6 @@ export default function TaskBar() {
   const { openModal } = useModals();
 
   const handleClick = () => {
-    console.log('click');
     openModal(Window, { foo: 'bar' });
   };
 
